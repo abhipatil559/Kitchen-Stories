@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="257dp"
+        android:layout_height="327dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="286dp"
+        android:backgroundTint="#613B3B"
+        app:srcCompat="@drawable/chef3" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="222dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="163dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/purple_200"
+        android:backgroundTintMode="multiply"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="START"
+        android:visibility="visible" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="121dp"-->
+<!--        android:layout_marginTop="508dp"-->
+<!--        android:layout_marginEnd="69dp"-->
+<!--        android:layout_marginRight="69dp"-->
+<!--        android:layout_marginBottom="148dp"-->
+<!--        android:fontFamily="sans-serif-condensed-medium"-->
+<!--        android:text="KITCHEN STORIES"-->
+<!--        android:textSize="100px" />-->
+</RelativeLayout>

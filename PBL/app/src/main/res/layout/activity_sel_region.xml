@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Select Region"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="35dp"
+        android:layout_marginTop="200dp"
+        />
+
+
+
+    <TableRow
+        android:layout_width="394dp"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+
+            android:text="Maharastrian" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text="South" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+
+
+            android:text="North" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Gujarati" />
+
+
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+
+
+            android:text="Punjabi" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:text="Time1" />
+
+
+
+
+    </TableRow>
+
+    </TableLayout>
